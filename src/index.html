@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Result</title>
+    <!-- <style>
+        *{
+            outline: 1px solid red;
+        }
+        
+    </style> -->
+</head>
+<body class="w-screen h-screen flex flex-col justify-center items-center">
+    <main class="md:w-[28rem] w-60 flex flex-col lg:flex lg:flex-row md:flex md:flex-row lg:w-[28rem]">
+        <div class="rounded-2xl z-10  mr-[-8px] first-container w-[100%] bg-gradient-to-l from-purple-600 to-blue-500 flex flex-col items-center p-6 gap-2">
+            <h1 class="text-white">Your Result</h1>
+            
+            <div class="h-32 w-32 rounded-full flex flex-col justify-center items-center bg-purple-800 text-white">
+                <span class="text-5xl text-white">76</span>
+                <p class="text-white">of 100</p>
+            </div>
+            <b class="text-white">Great</b>
+            <p class="text-white text-xs">You score higher than 60% of the people who have taken this test</p>
+        </div>
+
+        <div class="rounded-r-2xl second-container w-[100%] h-[100%] bg-white  flex flex-col gap-6 p-6 shadow-2xl ">
+            <h1 class="text-slate-950 text-xl font-bold">Summary</h1>
+
+            <div class="reaction flex justify-between bg-red-300"> 
+                <div class="flex gap-2">
+                    <img src="/assets/images/icon-reaction.svg" alt="">
+                    <b class="text-red-600 ">Reaction</b>
+                </div>
+
+                <div>
+                    <span>80</span> <span>/100</span>
+                </div>
+            </div>
+
+            <div class="memory flex justify-between bg-yellow-200">
+
+                <div class="flex gap-2">
+                    <img src="/assets/images/icon-memory.svg" alt="">
+                    <b class="text-yellow-500">Memory</b>
+                </div>
+
+                <div>
+                    <span>92</span> <span>/100</span>
+                </div>
+
+
+            </div>
+
+            <div class="verbal flex justify-between bg-green-200">
+
+                <div class="flex gap-2">
+                    <img src="/assets/images/icon-verbal.svg" alt="">
+                    <b class="text-green-500">Verbal</b>
+                </div>
+
+                <div>
+                    <span>61</span> <span>/100</span>
+                </div>
+
+            </div>
+            
+            <div class="visual flex justify-between bg-blue-300">
+
+                <div class="flex gap-2">
+                    <img src="/assets/images/icon-visual.svg" alt="">
+                    <b class="text-blue-400">Visual</b>
+                </div>
+
+                <div>
+                    <span>72</span> <span>/100</span>
+                </div>
+
+            </div>
+
+            <button class="text-center bg-black text-white rounded-2xl hover:bg-gradient-to-l from-purple-600 to-blue-500 text-xl h-10">
+                Continue
+            </button>
+        </div>
+
+
+    </main>
+</body>
+</html>
